@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* header section */
+header {
+    height: 90px;
+    background: #000;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* all heading style*/
+h1 {
+    color: #fff;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+p {
+    font-size: 25px;
+    font-weight: 500;
+    margin: auto;
+}
+.header h1{
+    text-align: center;
+}
+
+/* hero section */
+.container-hero {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(212, 73, 186, 0.597)), url('../img/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.container-hero p {
+    text-align: center;
+    color: #fff !important;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-hero .hero-content .hero-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+.container-hero .hero-content .hero-btn button{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 25px;
+    border: 1.8px solid rgb(255, 255, 255);
+    background: linear-gradient( rgba(212, 73, 186, 1), rgba(0, 0, 0, 0.9));
+    color: rgb(182, 182, 182);
+    border-radius: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.8s;
+    margin-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container-hero .hero-content .hero-btn button:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(212, 73, 186, 1));
+    color: rgb(255, 255, 255);
+}
+
+/* about section */
+.container-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-about .about-content {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.container-about .about-content p {
+    margin-top: 30px;
+    padding-right: 30px;
+    font-weight: 500;
+}
+.container-about .about-btn button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 25px;
+    border: 1.8px solid rgb(255, 255, 255);
+    background: linear-gradient( rgba(212, 73, 186, 1), rgba(0, 0, 0, 0.9));
+    color: rgb(182, 182, 182);
+    border-radius: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.8s;
+    margin-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container-about .about-btn button:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(212, 73, 186, 1));
+    color: rgb(255, 255, 255);
+}
+
+.container-about .about-img img {
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* blog section */
+.container-blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(212, 73, 186, 1));
+}
+.container-blog .blog-1 {
+    color: #fff;
+}
+.container-blog .blog-content {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container-blog .blog-content .blog-1 {
+    background: #fff;
+    padding: 30px;
+    color: #000;
+    border-radius: 12px;
+}
+.container-blog .blog-content .blog-1 .about-btn button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 25px;
+    border: 1.8px solid rgb(255, 255, 255);
+    background: linear-gradient( rgba(212, 73, 186, 1), rgba(0, 0, 0, 0.9));
+    color: rgb(182, 182, 182);
+    border-radius: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.8s;
+    margin-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container-blog .blog-content .blog-1 .about-btn button:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(212, 73, 186, 1));
+    color: rgb(255, 255, 255);
+}
+
+/* form section */
+.container-form {
+    background: linear-gradient( rgba(212, 73, 186, 1), rgba(0, 0, 0, 1));
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.container-form .form-content h2 {
+    letter-spacing: 10px;
+}
+.container-form .form-content input {
+    width: 30%;
+    padding: 10px;
+    border: #D449BA;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container-form .form-content .about-btn button {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 6px 25px;
+    border: 1.8px solid rgb(255, 255, 255);
+    background: linear-gradient( rgba(212, 73, 186, 1), rgba(0, 0, 0, 0.9));
+    color: rgb(182, 182, 182);
+    border-radius: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.8s;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container-form .form-content .about-btn button:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(212, 73, 186, 1));
+    color: rgb(255, 255, 255);
+}
+
+/* footer section */
+footer {
+    background: #000;
+    height: 100px;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer h6 {
+    line-height: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 6px;
+}
